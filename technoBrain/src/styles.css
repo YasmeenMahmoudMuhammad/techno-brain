@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('./assets/imgs/theme-01 1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+}
+.row {
+    --bs-gutter-x: 0 !important;
+}
+.navbar{
+/* margin: 51px 0px 0px 51px; */
+padding: 51px;
+}
+.navbar .navbar-brand{
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff !important;
+}
+.navbar a{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 32px;
+    text-decoration: none;
+    padding-right: 63px;
+}
